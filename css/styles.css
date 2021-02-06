@@ -1,0 +1,70 @@
+body {
+    background: url('../images/black_marble.jpg') 2610px 3810px;
+    font-family: 'Roboto Mono', 'monospace';
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+.container {
+    background: white;
+    margin: 50px auto;
+    padding: 10px;
+    width: 930px;
+    border-radius: 10px;
+}
+
+#main_header nav {
+    display: block;
+}
+
+#main_header nav ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ }
+
+#main_header nav ul li h1 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    float: left;
+}
+
+#header_button a {
+    top: -2px;
+    display: inline-block;
+    padding: 32px 0 0 0;
+    text-indent: 100px;
+}
+
+#articles {
+    display: block;
+}
+#articles h2{
+    font-size: 20px;
+    clear: left;
+}
+/* color for links */
+a:link {
+    color: black;
+}
+a:visited {
+    color: rgb(0, 140, 255);
+}
+a:hover {
+    color: grey;
+}
+a:active {
+    color: grey;
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
